@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<title>Customer's Login | College of Education, Gindiri</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap/css/bootstrap-responsive.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/plugins/font-awesome/css/font-awesome.min.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/style-metro.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/style.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/style-responsive.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/themes/light.css" type="text/css" id="style_color"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/plugins/uniform/css/uniform.default.css" type="text/css"/>
+	<!-- END GLOBAL MANDATORY STYLES -->
+	
+	<!-- BEGIN PAGE LEVEL STYLES -->
+	<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datetimepicker/css/datetimepicker.css" />
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/pages/login.css" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/select2/select2_metro.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/chosen-bootstrap/chosen/chosen.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/data-tables/DT_bootstrap.css" />
+	<!-- END PAGE LEVEL STYLES -->
+	<!-- BEGIN PAGE LEVEL STYLES -->
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/pages/invoice.css" type="text/css"/>
+	<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/print.css" type="text/css" media="print"/>
+<link rel="stylesheet" href="https://www.coeg.edu.ng/portal/assets/css/print.css" type="text/css" media="print"/>
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css"/>
+<link href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.coeg.edu.ng/portal/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+<link href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.css" rel="stylesheet" type="text/css" />
+<link href="https://www.coeg.edu.ng/portal/assets/css/pages/profile.css" rel="stylesheet" type="text/css" />
+	<!-- END PAGE LEVEL STYLES -->
+
+	<!-- FOR DATE PICKER -->
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/jquery-tags-input/jquery.tagsinput.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/clockface/css/clockface.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datepicker/css/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-timepicker/compiled/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datetimepicker/css/datetimepicker.css" />
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/jquery-multi-select/css/multi-select-metro.css" />
+<link href="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="https://www.coeg.edu.ng/portal/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css"/>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="https://www.coeg.edu.ng/portal/favicon.ico" />	<style type="text/css">
+		.select2-drop {z-index: 99999;}
+	</style>
+</head>
+
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+	<!-- BEGIN LOGO -->
+	<div class="logo">
+		<img src="https://www.coeg.edu.ng/portal/assets/img/smalllogo.png" alt="" width="100px" height="100px"/>
+	</div>
+	<!-- END LOGO -->
+	<!-- BEGIN LOGIN -->
+	<!-- BEGIN SIDEBAR -->
+	<!-- END SIDEBAR -->
+
+	<div class="content">
+			<div id="questiondialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p align="justify" id="questionmsg"></p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Continue Task</button>
+			<button type="button"  class="btn" id="dtcancel">Cancel</button>
+		</div>
+	</div>	
+
+	<div id="saveddialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p>Record saved successfully</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">OK</button>
+		</div>
+	</div>
+
+	<div id="updateddialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p>Record updated successfully</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">OK</button>
+		</div>
+	</div>
+
+	<div id="errordialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p>Unknown error occured! Please contact the administrator</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn red">Cancel</button>
+		</div>
+	</div>
+
+	<div id="anydialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p align="justify"><span id="anymsg" name="anymsg"></span></p>
+		</div>
+		<div class="modal-footer">
+			<button type="button"  data-dismiss="modal" class="btn red" id="anycancel" name="anycancel">Cancel</button>
+		</div>
+	</div>
+
+	<div id="anydialogextra" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3><span id="extraheader"></span></h3>
+		</div>
+		<div class="modal-body">
+			<p align="justify"><span id="anymsgextra" name="anymsgextra"></span></p>
+		</div>
+		<div class="modal-footer">
+			<button type="button"  data-dismiss="modal" class="btn green">Cancel</button>
+		</div>
+	</div>
+
+
+	<div id="notfounddialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Message</h3>
+		</div>
+		<div class="modal-body">
+			<p>Registration Number not found.</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn red">Cancel</button>
+		</div>
+	</div>
+
+	<div id="reginfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>REVALIDATION REGISTRATION PROCEDURE</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				I.	Login with your valid matric number [format: COEG/2977/15] <br/>
+				II.	After sucessful login, please fill the form accordingly and click on the submit online<br/>
+				<strong>NB:</strong> Use your personal phone number and email address,as these will be the channel of communicating to you<br/>
+				V.	Print the acknowlegment page and visit the registry for further processing<br/>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+		</div>
+	</div>
+
+	<div id="appinfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>APPLICATION PROCEDURE</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				I.	Make the specified payment at any bank nationwide on <b>Remita platform</b> and obtain Remita payment Receipt<br/>
+				II.	Click on "Confirm Application Fee" and supply the <b>RRR Payment Code</b> on your Remita payment Receipt<br/>
+				III. If Confirmation of Application Fee is successful, you will be instructed to login with your RRR Payment Code, if not pls contact the helpdesk and log your complaints<br/>
+				IV.	After successful login, please fill the form accordingly, upload your recent passport photograph and click on the submit<br/>
+				V.	Print the acknowlegment and await sms for your admission information on phone soon.<br/>
+				VI.	<b>MAKE SURE YOU LOGOUT FROM YOUR APPLICATION WHEN YOU ARE DONE.</b><br/>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+		</div>
+	</div>
+<!-- 	<div id="appinfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>APPLICATION PROCEDURE</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				I.	Make the specified payment at any bank nationwide on Etranzact platform and obtain Etranzact payment Receipt<br/>
+				II.	Click on "Confirm Application Fee" and supply the <b>School Confirmation PIN and Confirmation Order Number</b> on your Etranzact payment Receipt<br/>
+				III. If Confirmation of Application Fee is successful, you will be instructed to login with your School Confirmation PIN, if not pls contact the helpdesk and log your complaints<br/>
+				IV.	After successful login, please fill the form accordingly, upload your recent passport photograph and click on the submit<br/>
+				V.	Print the acknowlegment/Screening Schedule Page and visit the institution 30minutes before your screening time on your screening date.<br/>
+				VI.	<b>MAKE SURE YOU LOGOUT FROM YOUR APPLICATION WHEN YOU ARE DONE.</b><br/>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+		</div>
+	</div>
+ -->
+	<div id="appothersinfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>APPLICATION PROCEDURE</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				I.	Make the specified payment at any bank nationwide on <b>Etranzact platform</b> and obtain Etranzact payment Receipt<br/>
+				II.	Click on "Confirm Application Fee" and supply the <b>Confirmation Order Number</b> on your Etranzact payment Receipt<br/>
+				III. If Confirmation of Application Fee is successful, you will be instructed to login with your School Confirmation PIN, if not pls contact the helpdesk and log your complaints<br/>				IV.	After successful login, please fill the form accordingly, upload your recent passport photograph and click on the submit<br/>
+				V.	Print the acknowlegment and await sms for your admission information on phone soon.<br/>
+				VI.	<b>MAKE SURE YOU LOGOUT FROM YOUR APPLICATION WHEN YOU ARE DONE.</b><br/>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+		</div>
+	</div>
+
+	<div id="appijmbinfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3>APPLICATION PROCEDURE</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				I.	Make the specified payment at the institution Microfinance Bank ePayment platform and obtain payment receipt<br/>
+				II.	Click on "Confirm Application Fee" and supply the <b>School Confirmation PIN and Confirmation Order Number</b> on your Etranzact payment Receipt<br/>
+				III. If Confirmation of Application Fee is successful, you will be instructed to login with your School Confirmation PIN, if not pls contact the helpdesk and log your complaints<br/>				IV.	After successful login, please fill the form accordingly, upload your recent passport photograph and click on the submit<br/>
+				V.	Print the acknowlegment slip and await outcome of the shortlisting process via sms.<br/>
+				VI.	<b>MAKE SURE YOU LOGOUT FROM YOUR APPLICATION WHEN YOU ARE DONE.</b><br/>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+		</div>
+	</div>
+
+	<div id="utmereginfodialog" class="modal container hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h4><strong>STUDENT REGISTRATION PROCEDURE======[PLEASE READ CAREFULLY FEW THINGS HAVE CHANGED AROUND HERE]</strong></h4><br>
+			<div style="float: left">
+				<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+			</div>
+			<div style="float: right;">
+				<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+			</div>
+		</div>
+		<div class="modal-body">
+			<h4>FOR FRESH AND RETURNING STUDENT</a></h4>
+			<h4><strong>Step 1 [How do i login?]</strong></h4>
+			<ul>
+				<li>Login with your <strong>JAMB Registration/Application No.</strong>[Fresh Students Only] OR <strong>Matric Number</strong> as Username and your <strong>Surname (in CAPITAL OR UPPERCASE)</strong> as Password</li>
+				<li>You will be required to supply your valid <strong>Email Address and Phone Number</strong>  and change your password before you can proceed</li>
+				<li>In case you forgot your password, click on the forgot password link "Get it Here" and supply your JAMB Registration OR Matric Number, your Registered Email address and Phone Number and your new password and click on send to reset your password and send to your registered Phone Number and Email Address</li>
+    		</ul>
+    		<h4><strong>Step 2 [Student Biodata]</strong></h4>
+    		<ul>
+				<li>Click on Student Biodata</li>
+				<ul> <b>For Fresh Students and Returning Students</b>
+					<li>It is compulsory that you fill the biodata sections accordingly. Under the Upload section, you will be required to upload the scanned copy of your Passport(not more than 1 month old) </li>
+					<li>click on "Finalize and Preview Biodata Registration" under the Finalize section</li> 
+					<li>After clicking on Finalize, print your Biodata Report and <strong>GOTO BURSARY DEPARTMENT TO GENERATE YOUR INVOICE(REMITA RRR OR ETRANZACT TRANSACTION ID)</strong></li>
+					<li>Please Note: You will not be able to generate school invoice and make payment at the bank if you fail to complete these sections appropriately.</li>
+					<li>Please also note that for returning students, it is also compulsory for you to review your biodata and submit but you may not print your biodata report.</li>
+				</ul>
+    		</ul>
+
+    		<h4><strong>Step 3 [Payment: FOR BURSARY STAFF AND STUDENT]</strong></h4>
+    		<ul>
+				<li>Click on Payment</li>
+				<li>Your payment due will be available as Debit under Student Ledger</li>
+				<li>To make any payment, you have to select the payment type, generate invoice from which your <b>RRR NUMBER for FULL-TIME STUDENTS</b> OR <b>TRANSACTION ID for PART-TIME STUDENTS</b>  will be made available</li>
+				<li>Present the <b>RRR NUMBER</b> OR <b>TRANSACTION ID</b>  on the Invoice at any of the Banks listed on your invoice and make the payment on <b>REMITA PLATFORM</b> OR <b>ETRANZACT PLATFORM</b> as the case may be </li>
+				<li>You have to confirm your payment under the Confirm Payment Section and Print your Official Receipt</li>
+			</ul>
+  		
+    		<h4><strong>Step 4 [Course Registration]</strong></h4>
+    		<ul>
+    			<li>Click on Course Registration</li>
+    			<li>To be eligible for course registration, you must have paid and confirmed your <strong>SCHOOL FEE</strong></li>
+    			<li>Your courses will be displayed for you select appropriately and submit , print and present to the appropriate Registration Office for approval</li>
+    			<li>After approval, your must print another copies, present them for endorsement and submit at your department.</li>
+    		</ul>
+			<h4>Any further enquiries and complaints should be reported to our LiveChat System Below OR sent to  <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7b1e150a0e1209121e083b18141e1c551e1f0e55151c">[email&#160;protected]</a>, we will be there to assist you.</h4>
+		</div>
+		<div class="modal-footer">
+			<div style="float: left">
+				<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+			</div>
+			<div style="float: right">
+				<button type="button" data-dismiss="modal" class="btn green">Proceed</button>
+			</div>
+
+		</div>
+	</div>
+	
+
+	<div id="activateinfodialog" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>Activation Message</h3>
+		</div>
+		<div class="modal-body">
+			<p>Not activated, pls check back later</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">OK</button>
+		</div>
+	</div>
+
+	<div id="activateinfodialogmt" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<h3>IMPORTANT NOTICE</h3>
+		</div>
+		<div class="modal-body">
+			<p>Those who should obtain Court Affidavit are students who have problems with ther names and credentials.<br>
+				Court Affidavit is not compulsory!<br>
+				Feel free to contact us on our online helpdesk for any assistance or enquiry. 
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn green">OK</button>
+		</div>
+	</div>
+
+	<div id="anydialogextrasuccess" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3><span id="extraheadersuccess">COEG Message[Success]</span></h3>
+		</div>
+		<div class="modal-body">
+			<p align="justify"><span id="anymsgextrasuccess" name="anymsgextrasuccess"></span></p>
+		</div>
+		<div class="modal-footer">
+			<button type="button"  data-dismiss="modal" class="btn green">OK</button>
+		</div>
+	</div>
+
+	<div id="anydialogextraerror" class="modal hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h3><span id="extraheadererror">COEG Message[Error]</span></h3>
+		</div>
+		<div class="modal-body">
+			<p align="justify"><span id="anymsgextraerror" name="anymsgextraerror"></span></p>
+		</div>
+		<div class="modal-footer">
+			<button type="button"  data-dismiss="modal" class="btn red" id="anycancel" name="anycancel">Cancel</button>
+		</div>
+	</div>
+
+
+	
+
+	<a id="openquestiondialog" class="btn" data-toggle="modal" href="#questiondialog" style="display:none"></a>						
+	<a id="opensaveddialog" class="btn" data-toggle="modal" href="#saveddialog" style="display:none"></a>						
+	<a id="openupdateddialog" class="btn" data-toggle="modal" href="#updateddialog" style="display:none"></a>						
+	<a id="openerrordialog" class="btn" data-toggle="modal" href="#errordialog" style="display:none"></a>
+	<a id="openanydialog" class="btn" data-toggle="modal" href="#anydialog" style="display:none"></a>  						
+	<a id="opennotfounddialog" class="btn" data-toggle="modal" href="#notfounddialog" style="display:none"></a> 					
+	<a id="openreginfodialog" class="btn" data-toggle="modal" href="#reginfodialog" style="display:none"></a> 					
+	<a id="openreginfodialogextra" class="btn" data-toggle="modal" href="#anydialogextra" style="display:none"></a> 					
+	<a id="openactivateinfodialog" class="btn" data-toggle="modal" href="#activateinfodialog" style="display:none"></a> 					
+	<a id="openactivateinfodialogmt" class="btn" data-toggle="modal" href="#activateinfodialogmt" style="display:none"></a> 					
+	<a id="openactivateinfodialogsubj" class="btn" data-toggle="modal" href="#activateinfodialogsubj" style="display:none"></a> 
+	<a id="openreginfodialogstudent" class="btn" data-toggle="modal" href="#reginfodialogstudent" style="display:none"></a>
+	<a id="openappinfodialog" class="btn" data-toggle="modal" href="#appinfodialog" style="display:none"></a> 					 										
+	<a id="openappothersinfodialog" class="btn" data-toggle="modal" href="#appothersinfodialog" style="display:none"></a>
+	<a id="openappijmbinfodialog" class="btn" data-toggle="modal" href="#appijmbinfodialog" style="display:none"></a>
+	<a id="openreginfodialogutme" class="btn" data-toggle="modal" href="#utmereginfodialog" style="display:none"></a> 
+
+	<a id="openreginfodialogextrasuccess" class="btn" data-toggle="modal" href="#anydialogextrasuccess" style="display:none"></a> 					
+	<a id="openreginfodialogextraerror" class="btn" data-toggle="modal" href="#anydialogextraerror" style="display:none"></a> 					
+		<!-- BEGIN APPLICATION LOGIN FORM -->
+		<form class="form-vertical applogin-form hide" id="applogin-form">
+			<a href="javascript:;" id="app-procedure-info"><center><strong>Please Read Registration Procedure</strong></center></a>
+			<h3 class=""><center>Students' Login<span id="msgcheckstatus"></span></center></h3>
+			<p>Enter your UTME/App.[Fresher]/Matric No below.</p>
+			<div class="alert alert-error hide" id='alert-error'>
+				<button class="close" data-dismiss="alert"></button>
+				<span>Enter your UTME/App. Number[Freshers] Or Matric Number[Returning] and password</span>
+			</div>
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-user"></i>
+						<input class="m-wrap placeholder-no-fix" id="studentappusername" name="studentappusername" type="text" placeholder="UTME Or Matric Number"/>
+					</div>
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-lock"></i>
+						<input class="m-wrap placeholder-no-fix" id="studentappuserpassword" name="studentappuserpassword" type="PASSWORD" placeholder="Password"/>
+					</div>
+				</div>
+			</div>
+			<div class="form-actions">
+     			<button id='cmdapplogin' name='cmdapplogin' type="submit" class="btn btn-block green ">
+				Login Now <i class="m-icon-swapright m-icon-white"></i>
+				</button>   
+			</div>
+				<p>
+					Forgot your password ?&nbsp; 
+					<a href="javascript:;" id="confirm-app-btn" class="">Get it Here</a>
+				</p>
+				<div class="create-account">
+				<center>
+					<a href="https://www.coeg.edu.ng" class="">College Home Page</a>
+				</center>
+			</div>
+		</form>
+		<!-- END APPLICATION LOGIN FORM -->	
+
+		<!-- BEGIN FORGOT PASSWORD FORM -->
+		<form class="form-vertical forgot-password-form hide" id="forgot-password-form" name="forgot-password-form" action="#">
+			<h3>Get your Password Here<span id="msgacp"></span></h3>
+			<p>Enter carefully your details below.</p>
+			<div class="alert alert-error hide" id="alert-error">
+				<button class="close" data-dismiss="alert"></button>
+				<span>All fields are required.</span>
+			</div>
+			<div class="alert alert-success hide" id='alert-success'>
+				<button class="close" data-dismiss="alert"></button>
+				<span></span>
+			</div>
+
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-user"></i>
+						<input class="m-wrap placeholder-no-fix" id="fgtstudentappmatricnumber" name="fgtstudentappmatricnumber" type="text" placeholder="UTME/Matric  Number" />
+					</div>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-envelope"></i>
+						<input class="m-wrap placeholder-no-fix" id="fgtstudentappemailaddress" name="fgtstudentappemailaddress" type="text" placeholder="Registered Email Address"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-bell"></i>
+						<input class="m-wrap placeholder-no-fix" id="fgtstudentappphonenumber" name="fgtstudentappphonenumber" type="text" placeholder="Registered Phone Number"/>
+					</div>
+				</div>
+			</div>
+			<hr/>
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-lock"></i>
+						<input class="m-wrap placeholder-no-fix" id="fgtstudentapppassword" name="fgtstudentapppassword" type="password" placeholder="New Password"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-icon left">
+						<i class="icon-lock"></i>
+						<input class="m-wrap placeholder-no-fix" id="fgtstudentappconfirmpassword" name="fgtstudentappconfirmpassword" type="password" placeholder="Confirm Password"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-actions">
+				<button type="reset" id="confirm-app-back-btn" name="confirm-app-back-btn" class="btn">
+				<i class="m-icon-swapleft"></i>Back
+				</button>
+				<button type="submit" id="cmdgetandsendpassword" name="cmdgetandsendpassword" class="btn green pull-right">
+				Send <i class="m-icon-swapright m-icon-white"></i>
+				</button>            
+			</div>
+		</form>
+		<!-- END FORGET PASSWORD -->
+	</div>
+	<!-- END LOGIN -->
+	<!-- BEGIN COPYRIGHT -->
+
+	<!-- Change details  -->
+	<div id="changedetaildialog" class="modal  hide fade" tabindex="-1" data-backdrop="static" data-keyboard="true" data-width="800" data-height="auto" data-focus-on="input:first">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			<h4><strong>Update Student Details/Change Password</strong><span id="msg"></span></h4>
+		</div>
+
+		<form class="form-vertical frmchangeupdate" action="#" id="frmchangeupdate" name="frmchangeupdate">
+		<div class="modal-body">
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="control-group">
+						<label class="control-label">Phone Number<span class="required">*</span></label>
+						<div class="controls">
+							<input type="text" id="newphonenumber" value="" name="newphonenumber" class="m-wrap span12" placeholder="Your Valid PhoneNumber">
+						</div>
+					</div>
+				</div>
+				<!--/span-->
+				<div class="span6 ">
+					<div class="control-group">
+						<label class="control-label">Email Address<span class="required">*</span></label>
+						<div class="controls">
+							<input type="text" id="newemailaddress" value="" name="newemailaddress" class="m-wrap span12" placeholder="Your Valid Email Address">
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="control-group">
+						<label class="control-label">New Password[must not be less than 6 xters]<span class="required">*</span></label>
+						<div class="controls">
+							<input type="password" id="newpassword" value="" name="newpassword" class="m-wrap span12" placeholder="Your New Password">
+						</div>
+					</div>
+				</div>
+				<!--/span-->
+				<div class="span6 ">
+					<div class="control-group">
+						<label class="control-label">Confirm Password[must not be greater than 12 xters]<span class="required">*</span></label>
+						<div class="controls">
+							<input type="password" id="confirmnewpassword" value="" name="confirmnewpassword" class="m-wrap span12" placeholder="Confirm New Password">
+							<input type="hidden" id="newmatricnumber" value="" name="newmatricnumber" class="m-wrap span12" placeholder="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<span id="msgupdatestatus"></span>
+	       <button type="submit" class="btn green" id="cmdupdateinfo" name="cmdupdateinfo">Update Now</button>
+	       <button type="button" data-dismiss="modal"  class="btn red" id="cmdupdatecancel">Cancel</button>                              
+		</div>
+		</form>
+	</div>
+    <a class="btn default" data-toggle="modal" href="#changedetaildialog" id="openchangedetaildialog" name="openchangedetaildialog" style="display:none"></a>
+
+	<div class="copyright">
+		<div class="footer">
+	<div class="footer-inner">
+		&copy; 2022  College of Education, Gindiri Powered by Attonyx Engineers</div>
+	<!--<div class="footer-tools">
+		<span class="go-top">
+		<i class="icon-angle-up"></i>
+		</span>
+	</div>
+	-->
+</div>	</div>
+	<!-- END COPYRIGHT -->
+	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="assets/plugins/excanvas.min.js"></script>
+<script src="ssets/plugins/respond.min.js"></script>  
+<![endif]-->   
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-validation/dist/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-validation/dist/additional-methods.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/select2/select2.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<script src="https://www.coeg.edu.ng/portal/assets/scripts/app.js"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/scripts/form-validation.js"></script> 
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/scripts/form-components.js"></script> 
+<!-- END PAGE LEVEL STYLES -->    
+
+<!-- FOR DATE PICKER 
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/jquery-ui.js"></script>
+-->
+
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/ckeditor/ckeditor.js"></script>  
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/select2/select2.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-tags-input/jquery.tagsinput.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/clockface/js/clockface.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-daterangepicker/date.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script> 
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>  
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>   
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>   
+<script type="text/javascript" src="https://www.coeg.edu.ng/portal/assets/plugins/jquery.printElement.js"></script>
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script>
+<script src="https://www.coeg.edu.ng/portal/assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script> 
+<script src="https://www.coeg.edu.ng/portal/assets/scripts/form-components.js"></script> 
+<script src="https://www.coeg.edu.ng/portal/assets/scripts/ui-modals.js"></script>
+	<!-- BEGIN PAGE LEVEL SCRIPTS -->
+	<script src="https://www.coeg.edu.ng/portal/assets/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+	<script src="https://www.coeg.edu.ng/portal/assets/scripts/app.js" type="text/javascript"></script>
+	<script src="https://www.coeg.edu.ng/portal/assets/scripts/login.js" type="text/javascript"></script>
+	<!-- END PAGE LEVEL SCRIPTS --> 
+	<script>
+		jQuery(document).ready(function() {
+
+			$('.applogin-form').show();
+			$('.forgot-password-form').hide();
+
+			//$('.appresult-form').hide();
+
+			var segmentid = "_login";
+			App.init();
+			$('select').select2({ allowClear: true });
+
+			//$('select').addClass("select2-drop", {z-index: 99999;})
+
+			$(".user").keyup(function() {
+				if (isvalid(this.value)==false ){
+					this.value='';
+				}
+			})
+
+			$(".user").blur(function() {
+				if (isvalid(this.value)==false ){
+					this.value='';
+				}
+			})
+
+			// get and send password
+			$("#cmdgetandsendpassword").click(function() {
+				$('.forgot-password-form').validate({
+		            errorElement: 'label', //default input error message container
+		            errorClass: 'help-inline', // default input error message class
+		            focusInvalid: false, // do not focus the last invalid input
+		            rules: {
+		                fgtstudentappmatricnumber: {
+		                    required: true
+		                },
+		                fgtstudentappphonenumber: {
+		                    required: true
+		                },
+		                fgtstudentappemailaddress: {
+		                    required: true
+		                },
+		                fgtstudentapppassword: {
+		                    required: true,
+		                },
+		                fgtstudentappconfirmpassword: {
+		                    required: true,
+		                    equalTo: "#fgtstudentapppassword"
+		                },
+		            },
+
+		            messages: { // custom messages for radio buttons and checkboxes
+		                fgtstudentappmatricnumber: {
+		                    required: "UTME/Matric Number is required."
+		                },
+		                fgtstudentappphonenumber: {
+		                	required: "Phone number is required."
+		                },
+		                fgtstudentappemailaddress : {
+		                	required: "Email Address is required."
+		                },
+
+		            },
+
+		            invalidHandler: function (event, validator) { //display error alert on form submit   
+		                $('.alert-error', $('.confirmation-form')).show();
+		            },
+
+		            highlight: function (element) { // hightlight error inputs
+		                $(element)
+		                    .closest('.control-group').addClass('error'); // set error class to the control group
+		            },
+
+		            success: function (label) {
+		                label.closest('.control-group').removeClass('error');
+		                label.remove();
+		            },
+
+		            errorPlacement: function (error, element) {
+		                error.addClass('help-small no-left-padding').insertAfter(element.closest('.input-icon'));
+		            },
+
+		            submitHandler: function (form) {
+		            	var imgmsg= '<img src="https://www.coeg.edu.ng/portal/assets/img/spinner.gif">'+'Verifying...';
+		                $("#msgacp").html(imgmsg);
+		                $.ajax({
+							url: "https://www.coeg.edu.ng/portal/account/ugsetforgotpassword",
+							type: "POST",
+							data: $("#forgot-password-form").serialize(),
+							success: function (data) {
+								$("#msgacp").html('');
+								//alert (data);
+								if (data==1) {
+									msg="Password has been reset successfully and been sent to your registered phone and email address";
+	            					$("#anymsgextrasuccess").html(msg);
+									$("#openreginfodialogextrasuccess").trigger("click");									
+									$("#forgot-password-form")[0].reset();
+
+						            $('.applogin-form').show();
+						            $('.forgot-password-form').hide();
+								}else if(data == -1)  {
+									msg="Unable to update your record! Please check your entries and try again"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == 0)  {
+									msg="Your information CANNOT be found! Please check your entries and try again"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else {
+									msg="Unknown error! Please contact the helpdesk or Livechat"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}
+							}
+						});
+		            }
+	        	})
+			})
+
+			// Login to Application Form
+			$("#cmdapplogin").click(function() {
+				$('.applogin-form').validate({
+		            errorElement: 'label', //default input error message container
+		            errorClass: 'help-inline', // default input error message class
+		            focusInvalid: false, // do not focus the last invalid input
+		            rules: {
+		                studentappusername: {
+		                    required: true
+		                },
+		                studentappuserpassword: {
+		                    required: true
+		                },
+		            },
+		            messages: { // custom messages for radio buttons and checkboxes
+		                studentappusername: {
+		                    required: "UTME/Matric Number is required."
+		                },
+		                studentappuserpassword: {
+		                    required: "Password is required."
+		                },
+		            },
+
+		            invalidHandler: function (event, validator) { //display error alert on form submit   
+		                $('.alert-error', $('.confirmation-form')).show();
+		            },
+
+		            highlight: function (element) { // hightlight error inputs
+		                $(element)
+		                    .closest('.control-group').addClass('error'); // set error class to the control group
+		            },
+
+		            success: function (label) {
+		                label.closest('.control-group').removeClass('error');
+		                label.remove();
+		            },
+
+		            errorPlacement: function (error, element) {
+		                error.addClass('help-small no-left-padding').insertAfter(element.closest('.input-icon'));
+		            },
+
+		            submitHandler: function (form) {
+		            	var newmatricnumber = $("#studentappusername").val();
+		            	var imgmsg= '<img width="24" height="24" src="https://www.coeg.edu.ng/portal/assets/img/spinner.gif">'+'working...';
+		            	$("#msgcheckstatus").html(imgmsg);
+		                $.ajax({
+							url: "https://www.coeg.edu.ng/portal/account/ugsignin",
+							type: "POST",
+							data: $("#applogin-form").serialize(),
+							success: function (data) {
+								$('#msgcheckstatus').html('');
+								console.log(data);
+								if (data == 1) {
+									window.location.href="https://www.coeg.edu.ng/portal/student/stddashboard"
+								}else if (data == 0) {
+									msg="Invalid Username Or Password ! Please check your entry and try again "
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -1)  {
+									$("#newpassword").val('');
+	            					$("#confirmnewpassword").val('');
+	            					$("#newphonenumber").val('');
+	            					$("#newemailaddress").val('');
+
+									$("#newmatricnumber").val(newmatricnumber);
+									$("#openchangedetaildialog").trigger("click");
+								}else if(data == -2)  {
+									msg="<h2>Activation Alert</h2><b>You must goto bursary to be activated.</b><br><br>- Management "
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -8)  {
+									msg="Illegal Access ! Please contact the Live Chat or Helpdesk for assistance"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -5)  {
+									msg="YOU CANNOT ACCESS TWO ACCOUNTS WITH THE SAME BROWSER, IF YOU WANT TO PLEASE LOGOUT FROM THE PREVIOUS ACCOUNT AND LOGIN TO THE NEW ACCOUNT.";
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -6)  {
+									msg="REGISTRATION PERIOD HAS EXPIRED.";
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -7)  {
+									msg="You have NOT been cleared online! Please proceed to the office of the Director of Academic Planning for clearance before you can login!";
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else {
+	            					//$("#anymsg").html('Unknown error! Please contact the Live Chat or helpdesk for assistance');
+									msg='Unknown error! Please contact the Live Chat or helpdesk for assistance';
+									$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}
+							}
+						});
+		            }
+	        	})
+			})
+
+			// Change @ 1st Login
+			$("#cmdupdateinfo").click(function() {
+				$('.frmchangeupdate').validate({
+		            errorElement: 'label', //default input error message container
+		            errorClass: 'help-inline', // default input error message class
+		            focusInvalid: false, // do not focus the last invalid input
+		            rules: {
+		                newpassword: {
+		                    required: true,
+		                    minlength:6,
+		                    maxlength:12
+		                },
+		                confirmnewpassword: {
+		                	required: true,
+		                    equalTo: "#newpassword"
+		                },
+
+		                newphonenumber: {
+		                    required: true,
+		                    minlength:11,
+		                    maxlength:11,
+		                    digits:true
+		                },
+		                newemailaddress: {
+		                    required: true,
+		                    maxlength:30,
+		                    email:true
+		                },
+		            },
+		            
+		            invalidHandler: function (event, validator) { //display error alert on form submit   
+		                $('.alert-error', $('.frmchangeupdate')).show();
+		            },
+
+		            highlight: function (element) { // hightlight error inputs
+		                $(element)
+		                    .closest('.control-group').addClass('error'); // set error class to the control group
+		            },
+
+		            success: function (label) {
+		                label.closest('.control-group').removeClass('error');
+		                label.remove();
+		            },
+
+		            errorPlacement: function (error, element) {
+		                error.addClass('help-small no-left-padding').insertAfter(element.closest('.input-icon'));
+		            },
+
+		            submitHandler: function (form) {
+		            	//alert($("#frmchangeupdate").serialize())
+		            	var imgmsg= '<img width="24" height="24" src="https://www.coeg.edu.ng/portal/assets/img/spinner.gif">'+'working...';
+		            	$("#msgupdatestatus").html(imgmsg);
+		                $.ajax({
+							url: "https://www.coeg.edu.ng/portal/account/ugaccountupdate",
+							type: "POST",
+							data: $("#frmchangeupdate").serialize(),
+							success: function (data) {
+								console.log(data);
+								$('#msgupdatestatus').html('');
+								if (data == 1) {
+									$("#cmdupdatecancel").trigger("click");
+									$("#frmchangeupdate")[0].reset();
+									msg="Student Info have been updated successfully"
+	            					$("#anymsgextrasuccess").html(msg);
+									$("#openreginfodialogextrasuccess").trigger("click");
+								}else if (data == 0) {
+									msg="Update is NOT successful! Please check your entry and try again or visit the helpdesk and log your complaints"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -1)  {
+									msg="One or more of your entries is empty! Please check your entries and try again"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -2)  {
+									msg="This email address is already registered! Please check your entry and try again"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -3)  {
+									msg="This phone number is already registered! Please check your entry and try again"
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -5)  {
+									msg="YOU CANNOT ACCESS TWO ACCOUNTS WITH THE SAME BROWSER, IF YOU WANT TO PLEASE LOGOUT FROM THE PREVIOUS ACCOUNT AND LOGIN TO THE NEW ACCOUNT.";
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else if(data == -6)  {
+									msg="REGISTRATION PERIOD HAS EXPIRED.";
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+								}else {
+	            					msg='Unknown error! Please contact the Live Chat or helpdesk for assistance';
+	            					$("#anymsgextraerror").html(msg);
+									$("#openreginfodialogextraerror").trigger( "click" );
+
+								}
+							}
+						});
+		            }
+	        	})
+			})
+
+			//Login to Result
+			$("#cmdapploginresult").click(function() {
+				$('.appresult-form').validate({
+		            errorElement: 'label', //default input error message container
+		            errorClass: 'help-inline', // default input error message class
+		            focusInvalid: false, // do not focus the last invalid input
+		            rules: {
+		                utmenumberresult: {
+		                    required: true
+		                },
+		            },
+		            messages: { // custom messages for radio buttons and checkboxes
+		                utmenumberresult: {
+		                    required: "UTME Number is required."
+		                },
+		            },
+
+		            invalidHandler: function (event, validator) { //display error alert on form submit   
+		                $('.alert-error', $('.confirmation-form')).show();
+		            },
+
+		            highlight: function (element) { // hightlight error inputs
+		                $(element)
+		                    .closest('.control-group').addClass('error'); // set error class to the control group
+		            },
+
+		            success: function (label) {
+		                label.closest('.control-group').removeClass('error');
+		                label.remove();
+		            },
+
+		            errorPlacement: function (error, element) {
+		                error.addClass('help-small no-left-padding').insertAfter(element.closest('.input-icon'));
+		            },
+
+		            submitHandler: function (form) {
+		            	var imgmsg= '<center><img src="https://www.coeg.edu.ng/portal/assets/img/spinner.gif">'+'Checking...</center>';
+		            	$("#msgcheckres").html(imgmsg);
+		                $.ajax({
+							url: "https://www.coeg.edu.ng/portal/account/checkutmeresult",
+							type: "POST",
+							data: $("#appresult-form").serialize(),
+							success: function (data) {
+								//alert (data);
+								$('#msgcheckres').html('');
+								if (data == 1) {
+									window.location.href="https://www.coeg.edu.ng/portal/printservices/acknowledgementutmeresultapp"
+								}else if (data == 0) {
+									msg="There is no result yet! Please check your UTME Registration Number and try again"
+	            					$("#anymsg").html(msg);
+									$("#openanydialog").trigger( "click" );
+								}else {
+	            					$("#anymsg").html('Unknown error! Please contact the Live Chat or helpdesk for assistance');
+									$("#openanydialog").trigger( "click" );
+								}
+							}
+						});
+		            }
+	        	})
+			})
+
+			$("#anydialogextra").click(function() {
+			})
+
+			$("#printaccept-btn").live("click",function() {
+				//$("#anydialogextra").printElement();
+				$("#anymsgextra").printElement();
+			})	
+
+			$("#cmdupdatecancel").live("click",function() {
+				$("#frmchangeupdate")[0].reset();
+			})
+
+			jQuery('#confirm-app-btn').click(function () {
+	            $('.applogin-form').hide();
+	            $('.forgot-password-form').show();
+	        });
+
+	        jQuery('#confirm-app-back-btn').click(function () {
+	            $('.forgot-password-form').hide();
+	            $('.applogin-form').show();
+	        });
+
+	        jQuery('#app-procedure-info').click(function () {
+	        	$("#openreginfodialogutme").trigger( "click" );
+	        });
+
+			jQuery('#applogin-btn').click(function () {
+	            $('.forgot-password-form').hide();
+	            $('.applogin-form').show();
+	        });
+
+	        jQuery('#back-btn').click(function () {
+	            jQuery('.login-form').show();
+                jQuery('.forget-form').hide();
+                jQuery('.reset-form').hide(); 
+	            jQuery('.register-form').hide();
+	            jQuery('.verifier-form').hide();
+	            jQuery('.confirmation-form').hide();
+	            $('.admissionletter-form').hide();
+	            $('.acceptance-confirmation-form').hide();
+	            $('.appresult-form').hide();
+	            $('.applogin-form').hide();
+	            $('.appadmissionstatus-form').hide();
+	        });
+		    
+		 	    
+			jQuery('#confirm-back-btn').click(function () {
+	            jQuery('.login-form').hide();
+	            jQuery('.register-form').hide();
+	            jQuery('.verifier-form').hide();
+	            jQuery('.forget-form').hide();
+	            jQuery('.reset-form').hide(); 
+	            jQuery('.confirmation-form').hide();
+	            $('.admissionletter-form').hide();
+	            $('.acceptance-confirmation-form').hide();
+	            $('.printschoolfeeinvoice-form').hide();
+	            $('.appresult-form').hide();
+	            $('.appadmissionstatus-form').hide();
+	            $('.applogin-form').show();
+	        });
+
+	        $("#openreginfodialogutme").trigger( "click" );
+	        $.backstretch([
+		        "https://www.coeg.edu.ng/portal/assets/img/bg/1.jpg",
+		        "https://www.coeg.edu.ng/portal/assets/img/bg/2.jpg",
+				"https://www.coeg.edu.ng/portal/assets/img/bg/3.jpg",
+				/*"https://www.coeg.edu.ng/portal/assets/img/bg/4.jpg",
+				"https://www.coeg.edu.ng/portal/assets/img/bg/5.jpg",*/
+	        ], {
+		          fade: 1000,
+		          duration: 8000
+		    });
+
+
+		    $("#newprogrammeid").change (function() {
+				fetchcourseofstudy();
+			});
+		});
+
+		function isvalid(myvalue){
+			var iChars = " !@#$%^&*()+=-_[]\\\';,./{}|\":<>?";
+			for (var i = 0; i < myvalue.length; i++) {
+			    if (iChars.indexOf(myvalue.charAt(i)) != -1) {
+			    	//this.value='';
+			        //alert ("Your username has special characters. \nThese are not allowed.\n Please remove them and try again.");
+			        return false;
+			    }
+			}		
+		}
+
+		function emptyregistrationfields(){
+			$(".reg").val('');
+		}
+
+
+		function fetchcourseofstudy (){
+			var programmeid = $("#newprogrammeid").val();
+			var imgmsg= '<img src="https://www.coeg.edu.ng/portal/assets/img/spinner.gif">'+'Working...';
+			if (programmeid != ''){
+				//resettable();
+				$('#msg').html(imgmsg);
+				$.getJSON("https://www.coeg.edu.ng/portal/student/fetchcourseofstudy",{programmeid: programmeid, ajax: 'true'},function(data){
+					var items=''; var item='';
+					$("#newcourseofstudyid").select2('data', null);
+					$("#newcourseofstudyid").empty();
+			       	var schname=data[0].schoolname;
+			       	items+= '<option value="' + item + '">' + item + '</option>';
+			       	items+='<optgroup label="'+schname+'">';
+			       	for (var i = 0; i < data.length; i++) {
+			       		if (schname!=data[i].schoolname){
+			       			items+='</optgroup>';
+			       			schname=data[i].schoolname;
+			       			items+='<optgroup label="'+data[i].schoolname+'">';
+			       		}
+   						items+= '<option value="' + data[i].pcid + '">' + data[i].courseofstudyname + '</option>';
+  					}
+  					items+='</optgroup>';
+  					$('#newcourseofstudyid').append(items);
+
+  					//call module to load level also
+					$.getJSON("https://www.coeg.edu.ng/portal/student/fetchlevelsbyprogrammeid",{programmeid: programmeid, ajax: 'true'},function(data){
+						var items=''; var item='';
+						$("#newlevel").select2('data', null);
+						$("#newlevel").empty();
+
+				       	items+= '<option value="' + items + '">' + items + '</option>';
+				       	for (var i = 0; i < data.length; i++) {
+	   						items+= '<option value="' + data[i].levelcode + '">' + data[i].levelname + '</option>';
+	  					}
+	  					$('#newlevel').append(items);
+					});
+
+					//reloadrecord()
+  					$('#msg').html('');
+				});
+			}
+		}
+
+	</script>
+
+	<!--Start of Tawk.to Script-->
+	<!-- <script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/59ae8f8d4854b82732fee41e/default';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script> -->
+	<!--End of Tawk.to Script-->
+	<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
