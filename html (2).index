@@ -1,0 +1,70 @@
+	<html>
+<head>
+<title>www.tanko/fce.com</title>
+								
+
+<button type="menue-bar"style="color:red;">menu</button>	<head>
+<style>
+h1 {
+  text-shadow: 2px 2px 5px blue;
+}
+</style>
+</head>
+<body>
+
+<button onclick="function dosomething()" style="font-size:12px; background-color:white; width:700px;color:darkred;padding:0.1px; border-radius:10px;"><b>Welcome to Resume website:</b>
+<marquee behaviour="scroll" direction="left">
+					<h1 style="color:white;">Class Project Federal College of Education, Pankshin.</marquee><i>COMPUTER DEPARTMENT</i><p><b>To be Summitted to Mr. Dandam Nannim</b></p></h1> </button>
+
+
+</body>
+
+
+<p>
+							
+<head>
+<style>
+h1 {
+  text-shadow: 2px 2px 5px blue;
+}
+</style>
+</head>
+<button type="button"style="color:navygreen;padding:3px;">Back</button>
+<button type="button"style="color:purple;padding:3px;">Home</button>
+<button type="button"style="color:red;">contact</button> 
+	<button type="button"style="color:blue;">about</button>
+		<button type="button"style="color:green;">content</button>
+			<button type="button"style="color:green;padding:3px;">Next</button>
+	
+		
+	<body style="background-color:ff000;"></body>
+		<h1 style="color:darkred;text-align:center;">CURRICULUM VATAE</h1>
+			<b style="color:red;">A. BIO DATA</b>
+<p> 
+1. NAME: Tanko Dokduna Geofrey</p>
+<p>2. GENDER: Male</p> 
+<p>3. AGE: 24</p>
+<p>4. RELIGIOUS FAITH: Christian</p>
+<p>5. NATIONALITY: Nigeria</p>   
+<p>6. STATE OF ORIGIN:Plateau</p>  
+<p>7. LOCAL GOVERNMENT OF ORIGIN: Pankshin</p>  
+<p>8. MATRIC NUMBER: FCEP/2021/2022/SC/CSC BIO/0103</p> 
+<p>9. MOBILE NUMBER: 08027173277</p>
+<p>10. DATE OF BIRTH: 28/6/1999</p>
+<p>11. MARITAL STATUS: Single</p>
+<p>12. HOME ADDRESS: Dang wokkos</p>
+<br> 
+<p style="color:red;">B. NEXT OF KING AND RELATIONSHIP</p>  
+<p>1. Godsave - Son </p> 
+<br>
+<p style="color:red;">C. EDUCATIONAL INSTITUTIONS ATTENDED WITH DATES</p> 
+	<p>1. First Leaving School Certificate - Primary dang wokkos - from 2008 to2014</p>
+		<p>2. Sinior Secondary Certificate- community secondary school jimin - from 2014/2020</p>   
+
+<p>1. Tertiary Institution - Federal College of Education Pankshin- from 2021 to present</p>
+
+<p style="color:red;">D.CERTIFICATE OBTAINED</p>
+<p>1.1. First Leaving School Certificate - Primary dang wokkos - from 2008 to2014</p>
+</head>
+<marquee behaviour="scroll"direction="Rigt;"><i style="color:red;">Note:this information is varified</marquee>
+</html>
