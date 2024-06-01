@@ -1,2 +1,2 @@
-is a resume website
+website
 develop by manchang!
